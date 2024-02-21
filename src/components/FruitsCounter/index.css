@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 10px;
+}
+.inner-container {
+  background-color: #ffffff;
+  min-height: 90vh;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 40px;
+}
+span {
+  color: #ffd569;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+.items-container {
+  display: flex;
+  justify-content: space-around;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+button {
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 8px;
+  border-width: 0px;
+  color: #ffffff;
+  margin: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 567px) {
+  h1 {
+    font-size: 30px;
+  }
+  .items-container {
+    flex-direction: column;
+  }
+}
